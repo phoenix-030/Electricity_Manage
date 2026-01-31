@@ -1,0 +1,46 @@
+.range-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.range-table {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.range-table h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-success {
+  color: #28a745 !important;
+  font-weight: bold;
+}
