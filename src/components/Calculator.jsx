@@ -162,6 +162,34 @@ const Calculator = () => {
             domestic slab tariffs. It also compares previous and current
             monthly usage to show savings or extra consumption.
           </p>
+          <div className="mt-3">
+            <h5>🔧 Features:</h5>
+            <ul>
+              <li><strong>Bi-Monthly Bill Calculation:</strong> Calculate your electricity bill based on TNEB domestic tariff slabs</li>
+              <li><strong>Monthly Comparison:</strong> Compare your current month usage with previous month</li>
+              <li><strong>Savings Tracker:</strong> See how much you saved or extra you spent</li>
+              <li><strong>Unit Analysis:</strong> Track your consumption patterns in units</li>
+            </ul>
+          </div>
+          <div className="mt-3">
+            <h5>💡 Tariff Slabs (Tamil Nadu):</h5>
+            <ul>
+              <li>0-100 units: <span className="text-success">FREE</span></li>
+              <li>101-200 units: ₹2.25 per unit</li>
+              <li>201-400 units: ₹4.50 per unit</li>
+              <li>401-500 units: ₹6.00 per unit</li>
+              <li>Above 500 units: ₹8.00 per unit</li>
+            </ul>
+          </div>
+          <div className="mt-3">
+            <h5>📊 Benefits:</h5>
+            <ul>
+              <li>Plan your electricity budget effectively</li>
+              <li>Identify peak consumption periods</li>
+              <li>Track energy conservation efforts</li>
+              <li>Make informed decisions about appliance usage</li>
+            </ul>
+          </div>
         </div>
 
         <div className="card p-4 shadow mt-4">
