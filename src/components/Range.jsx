@@ -1,6 +1,7 @@
 import React from "react";
-import "@eslint/js"
-
+import "../styles/Range.css";
+import "../styles/App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Range = () => {
   let unitRanges =[

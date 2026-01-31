@@ -1,6 +1,15 @@
+import homeImage from "../images/home.jpg";
+import turnoffImage from "../images/turnoff.jpg";
+import naturalImage from "../images/natural.jpg";
+import ledImage from "../images/led.jpg";
+import solarImage from "../images/solar.jpg";
+import refrigiratorImage from "../images/refrigirator.png";
+import acImage from "../images/Ac.jpg";
+import animationImage from "../images/animation.png";
+
 import React from "react";
 import { Link } from "react-router-dom";
-import "./assets/Home.css";
+import "../styles/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
@@ -9,7 +18,7 @@ const Home = () => {
     <>
       <div className="home-container z-0">
         {" "}
-        <img src="src/assets/images/home.jpg" alt="" />
+        <img src={homeImage} alt="" />
         {/* <h1>Welcome to the Electricity Reducer</h1> */}
       </div>
       <div>
@@ -27,7 +36,7 @@ const Home = () => {
       {/* ------------------------------ */}
       <section className="section">
         <img
-          src="src\assets\images\animation.png"
+          src={animationImage}
           className="sec-img"
           alt=""
         />
@@ -41,7 +50,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/turnoff.jpg"
+              src={turnoffImage}
               className="img float-start"
               alt=""
             />
@@ -69,7 +78,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/natural.jpg"
+              src={naturalImage}
               className="img float-start"
               alt=""
             />
@@ -97,7 +106,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/led.jpg"
+              src={ledImage}
               className="img float-start"
               alt=""
             />
@@ -127,7 +136,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/solar.jpg"
+              src={solarImage}
               className="img float-start"
               alt=""
             />
@@ -152,7 +161,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/refrigirator.png"
+              src={refrigiratorImage}
               className="img float-start"
               alt=""
             />
@@ -179,7 +188,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/Ac.jpg"
+              src={acImage}
               className="img float-start"
               alt=""
             />

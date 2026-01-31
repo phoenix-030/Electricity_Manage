@@ -2,18 +2,19 @@ import { Routes, Route, Navigate,Link } from "react-router-dom";
 import Home from "./Home";
 import Calculator from "./Calculator";
 import Range from "./Range";
+import logoImage from "../images/logo2.jpg";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/App.css";
+import "../styles/App.css";
 
-import Footer from "./footer";
+import Footer from "./Footer";
 
 const App = () => {
   return (
     <>
       
        <nav className="navbar rounded p-3 ">
-        <img src="/logo2.jpg" alt="logo"  />
+        <img src={logoImage} alt="logo"  />
         <h1 className="Heading">Welcome to Electricity Reducer</h1>
 
         <div className="d-grid gap-2 d-md-flex justify-content-md-end ">
