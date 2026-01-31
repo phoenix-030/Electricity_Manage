@@ -19,7 +19,7 @@ const Home = () => {
       <div className="home-container z-0">
         {" "}
         <img src={homeImage} alt="" />
-        {/* <h1>Welcome to the Electricity Reducer</h1> */}
+        <h1>Welcome to the Electricity Reducer</h1>
       </div>
       <div>
         <h2 className="text-capitalize fw-bolder text-center ">
