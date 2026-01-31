@@ -4,9 +4,9 @@ import Calculator from "./Calculator";
 import Range from "./Range";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/App.css";
+import "../styles/App.css";
 
-import Footer from "./footer";
+import Footer from "./Footer";
 
 const App = () => {
   return (

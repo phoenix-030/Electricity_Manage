@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./assets/Calculator.css";
+import "../styles/Calculator.css";
 
 const Calculator = () => {
   // Existing calculator

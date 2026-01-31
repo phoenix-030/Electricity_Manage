@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./assets/Home.css";
+import "../styles/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 
@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <div className="home-container z-0">
         {" "}
-        <img src="src/assets/images/home.jpg" alt="" />
+        <img src="../images/home.jpg" alt="" />
         {/* <h1>Welcome to the Electricity Reducer</h1> */}
       </div>
       <div>
@@ -27,7 +27,7 @@ const Home = () => {
       {/* ------------------------------ */}
       <section className="section">
         <img
-          src="src\assets\images\animation.png"
+          src="../images/animation.png"
           className="sec-img"
           alt=""
         />
@@ -41,7 +41,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/turnoff.jpg"
+              src="../images/turnoff.jpg"
               className="img float-start"
               alt=""
             />
@@ -69,7 +69,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/natural.jpg"
+              src="../images/natural.jpg"
               className="img float-start"
               alt=""
             />
@@ -97,7 +97,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/led.jpg"
+              src="../images/led.jpg"
               className="img float-start"
               alt=""
             />
@@ -127,7 +127,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/solar.jpg"
+              src="../images/solar.jpg"
               className="img float-start"
               alt=""
             />
@@ -152,7 +152,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/refrigirator.png"
+              src="../images/refrigirator.png"
               className="img float-start"
               alt=""
             />
@@ -179,7 +179,7 @@ const Home = () => {
         <div className="container1">
           <div className="image-container img ">
             <img
-              src="src/assets/images/Ac.jpg"
+              src="../images/Ac.jpg"
               className="img float-start"
               alt=""
             />
