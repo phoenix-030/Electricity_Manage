@@ -53,7 +53,7 @@
   background-clip: text;
   background-position: center;
   
-  background-image: url(./images/signature.jpg);  cursor: pointer;
+  background-image: url(../images/signature.jpg);  cursor: pointer;
 }
 /* .btn-group {
   display: flex;
