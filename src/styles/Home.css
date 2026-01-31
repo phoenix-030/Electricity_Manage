@@ -46,7 +46,7 @@
   text-align: center;
   font-family: "Poetsen One", sans-serif;
    background: linear-gradient(to right, #c2e59c, #64b3f4); 
-
+z-index: -1;
  
 }
 /* THIS IS THE MAIN DIV CONTAINER */

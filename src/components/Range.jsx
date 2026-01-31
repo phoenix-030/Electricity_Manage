@@ -18,7 +18,7 @@ const Range = () => {
   
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4" style={{ paddingTop: "80px" }}>
       <h2 className="text text-center mb-3">Electricity Unit Charges</h2>
 
 

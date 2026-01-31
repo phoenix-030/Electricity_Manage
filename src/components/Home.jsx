@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 const Home = () => {
   return (
     <>
-      <div className="home-container z-0">
+      <div className="home-container z-0" style={{ paddingTop: "80px" }}>
         {" "}
         <img src={homeImage} alt="" />
         <h1>Welcome to the Electricity Reducer</h1>

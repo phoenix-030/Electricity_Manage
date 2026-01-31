@@ -91,7 +91,7 @@ const Calculator = () => {
           </button>
 
           {bill !== null && (
-            <div className=" alert-success text-center mt-4">
+            <div className="alert-success text-center mt-4">
               <h4>Total EB Bill (Bi-Monthly)</h4>
               <h3>₹ {bill.toFixed(2)}</h3>
               <p>
